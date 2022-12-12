@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subititulo_uno"
+            android:title="@string/titulo_grupo">
+            <menu>
+                <item
+                    android:id="@+id/ingresarDatos"
+                    android:icon="@drawable/ic_datos_estudiante"
+                    android:title="@string/ingresar_datos" />
+                <item
+                    android:id="@+id/desplegarDatos"
+                    android:icon="@drawable/ic_desplegar_estudiantes"
+                    android:title="@string/verEstudiantes" />
+                <item
+                    android:id="@+id/buscarEstudiante"
+                    android:icon="@drawable/ic_buscar_estudiantes"
+                    android:title="@string/buscarEstudiante" />
+                <item
+                    android:id="@+id/eliminarEstudiante"
+                    android:icon="@drawable/ic_eliminar_estudiante"
+                    android:title="@string/eliminarEstudiante"/>
+            </menu>
+        </item>
+    </group>
+</menu>

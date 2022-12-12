@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EjercicioDos</string>
+    <string name="dispositivos_moviles_8">Dispositivos Moviles 8</string>
+    <string name="ingresar_datos">Ingresar datos</string>
+    <string name="titulo_barra">Modulo 7 de Android</string>
+    <string name="logo_unam">Logo UNAM</string>
+    <string name="abrir">Abrir</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="titulo_grupo">Estudiantes</string>
+    <string name="verEstudiantes">Ver estudiantes</string>
+    <string name="buscarEstudiante">Buscar estudiante</string>
+    <string name="eliminarEstudiante">Eliminar estudiante</string>
+    <string name="action_about">Acerca de</string>
+
+    <string name="buscar">buscar</string>
+    <string name="dato_xml">Dato xml</string>
+    <string name="datos_json">Datos JSON</string>
+    <string name="error">No se encuentra la información revice su conexion</string>
+    <string name="json_id">JSON id</string>
+    <string name="json_post">JSON POST</string>
+    <string name="json_delete">JSON DELETE</string>
+    <string name="mostarEstudiantes">Estudiantes</string>
+    <string name="cuentaEdt">Cuenta</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="id_materia">Id Materia</string>
+    <string name="materia">Materia</string>
+    <string name="creditos">Creditos</string>
+    <string name="valor_requerido">Se requiere valor!!</string>
+
+</resources>

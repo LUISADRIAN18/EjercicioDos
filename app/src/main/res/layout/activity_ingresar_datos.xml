@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IngresarDatos">
+
+    <EditText
+        android:id="@+id/cuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cuentaEdt"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_below="@+id/cuenta"
+        android:layout_marginTop="16dp"
+
+        />
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edad"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_below="@+id/nombre"
+        android:layout_marginTop="16dp"
+
+        />
+    <EditText
+        android:id="@+id/idMat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/id_materia"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:layout_below="@+id/edad"
+        android:layout_marginTop="16dp"
+
+        />
+    <EditText
+        android:id="@+id/nombreMat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/materia"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_below="@+id/idMat"
+        android:layout_marginTop="16dp"
+
+        />
+    <EditText
+        android:id="@+id/creditosMat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/creditos"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_below="@+id/nombreMat"
+        android:layout_marginTop="16dp"
+
+        />
+    <Button
+
+        android:id="@+id/restjsonadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/creditosMat"
+        android:text="@string/json_post"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        />
+
+
+</RelativeLayout>
